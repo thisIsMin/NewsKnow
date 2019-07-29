@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NewsKnow</string>
+
+    <string name="one">NewsKnow</string>
+
+    <string name="one_text">Be kind one another</string>
+
+    <string name="zhihu">知乎</string>
+
+    <string name="topnews">topnews</string>
+
+    <string name="meizi">meizi</string>
+
+    <string name="transition_shot_background" translatable="false">shot_background</string>
+</resources>

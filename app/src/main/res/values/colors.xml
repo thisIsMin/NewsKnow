@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="status_bar_back">#ff171797</color>
+    <color name="text_primary_light">#ff171717</color>
+
+    <color name="nav_item">#ff171717</color>
+    <color name="mid_grey">#40808080</color>
+    <color name="text_color">#f6000000</color>
+    <color name="content_placeholder">#ffe0e0e0</color>
+
+    <color name="recylerview_back">#40808080</color>
+
+</resources>

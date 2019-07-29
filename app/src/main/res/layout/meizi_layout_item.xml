@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/zhihu_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/item_margin"
+    android:paddingTop="@dimen/item_margin"
+    android:foreground="@drawable/mid_grey_ripple"
+    android:stateListAnimator="@animator/raise">
+    <!--android:foreground="@drawable/mid_grey_ripple"-->
+
+    <!--android:stateListAnimator="@animator/raise">-->
+
+    <ImageView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/item_image_id"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="5dp"
+        android:elevation="@dimen/z_card"
+        android:foreground="@drawable/mid_grey_ripple"
+        android:stateListAnimator="@animator/raise" />
+
+
+    <TextView
+        android:id="@+id/item_text_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:stateListAnimator="@animator/raise"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/text_color"
+        />
+</FrameLayout>
