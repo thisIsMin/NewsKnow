@@ -7,9 +7,6 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 
-/**
- * Created by 蔡小木 on 2016/4/14 0014.
- */
 public class DBUtils {
     public static final String CREATE_TABLE_IF_NOT_EXISTS = "create table if not exists %s " +
             "(id integer  primary key autoincrement,key text unique,is_read integer)";

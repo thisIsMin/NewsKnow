@@ -10,9 +10,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
 
-/**
- * Created by xinghongfei on 16/8/12.
- */
 public class MyApplication extends Application {
 
     public final static String TAG = "BaseApplication";
