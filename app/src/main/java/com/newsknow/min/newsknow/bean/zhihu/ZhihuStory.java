@@ -2,9 +2,6 @@ package com.newsknow.min.newsknow.bean.zhihu;
 
 import com.google.gson.annotations.SerializedName;
 
-/**
- * Created by 蔡小木 on 2016/3/7 0007.
- */
 public class ZhihuStory {
     @SerializedName("body")
     private String body;
